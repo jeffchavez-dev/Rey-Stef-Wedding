@@ -4,6 +4,9 @@
     box-sizing: content-box;
 }
 
+:root {
+    --primary: #e6b85a
+}
 .parisienne-regular {
     font-family: "Parisienne", cursive;
     font-weight: 400;
@@ -37,9 +40,10 @@ main {
 }
 
 img {
-    max-width: 100%;
+    max-width: 75%;
+    border: var(--primary) 2px solid;
     border-radius: 10px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px var(--primary);
 }
 
 p {
