@@ -18,3 +18,5 @@ const intervalId = setInterval(() => {
         countdownElement.innerHTML = 'The wedding is today!';
     }
 }, 1000);
+
+intervalId()
