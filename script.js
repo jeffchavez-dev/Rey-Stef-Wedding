@@ -1,12 +1,12 @@
 const countdownElement = document.getElementById('countdown');
 
-const countdownDate = new Date('November 5, 2024 16:00:00').getTime();
+const countdownDate = new Date('December 5, 2024 16:00:00').getTime();
 
 const intervalId = setInterval(() => {
   const now = new Date().getTime();
   
   const distance = countdownDate - now;
-  alert(distance)
+  // alert(distance)
   
   if (distance < 0) {
     clearInterval(intervalId);
