@@ -21,3 +21,5 @@ const intervalId = setInterval(() => {
   }
 }, 1000);
 
+
+ScrollReveal().reveal('.wedding-info, .date-venue, .rsvp, .gift-guide, .dress-code', { distance: '20px', origin: 'bottom', duration: 500 });
