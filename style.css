@@ -77,17 +77,28 @@ footer {
 
 /* ... your previous CSS styles ... */
 
-.countdown {
+section {
+    padding: 40px;
     text-align: center;
-    font-size: 24px;
+  }
+  
+  .wedding-info {
+    background-color: #f0f0f0;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  .couple-names {
+    font-size: 32px;
+    color: #333;
     margin-bottom: 20px;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-}
+  }
+  
+  .countdown {
+    font-size: 24px;
+    color: #666;
+  }
+  
+  .date-venue, .rsvp, .gift-guide, .dress-code {
+    margin-bottom: 40px;
+  }
+  
