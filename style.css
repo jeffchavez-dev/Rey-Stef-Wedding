@@ -93,9 +93,22 @@ section {
     margin-bottom: 20px;
   }
   
+  .countdown > #countdown {
+    font-size: 3em;
+    color: var(--primary);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+
   .countdown {
-    font-size: 24px;
-    color: #666;
+    width: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    
   }
   
   .date-venue, .rsvp, .gift-guide, .dress-code {
