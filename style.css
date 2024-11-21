@@ -40,7 +40,7 @@ main {
 }
 
 img {
-    max-width: 75%;
+    max-width: 90%;
     border: var(--primary) 2px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 5px var(--primary);
