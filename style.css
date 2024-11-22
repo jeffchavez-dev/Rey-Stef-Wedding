@@ -41,6 +41,7 @@ main {
 
 img {
     max-width: 90%;
+    width: 380px;
     border: var(--primary) 2px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 5px var(--primary);
