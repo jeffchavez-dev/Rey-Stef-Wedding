@@ -86,35 +86,37 @@ section {
     padding: 40px;
     text-align: center;
     margin-bottom: 50px;
+    opacity: 1;
+    /* transform: translateY(20px); */
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+section:nth-child(1) {
+  animation: slideIn 1s forwards;
+  animation-delay: 0.2s;
+}
+
+section:nth-child(2) {
+  animation: slideIn 1s forwards;
+  animation-delay: 0.4s;
+}
+
+@keyframes slideIn {
+  from {
     opacity: 0;
     transform: translateY(20px);
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
   }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-  section:nth-child(1) {
-    animation: slideIn 1s forwards;
-    animation-delay: 0.2s;
-  }
-  
-  section:nth-child(2) {
-    animation: slideIn 1s forwards;
-    animation-delay: 0.4s;
-  }
-  
-  @keyframes slideIn {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  .wedding-info {
-    background-color: #f0f0f0;
-    border-bottom: 2px solid #ccc;
-  }
+
+.wedding-info {
+  background-color: #f0f0f0;
+  border-bottom: 2px solid #ccc;
+}
   
   .couple-names {
     font-size: 32px;
@@ -139,8 +141,8 @@ section {
     margin: auto;
     
   }
-/*   
+  
   .date-venue, .rsvp, .gift-guide, .dress-code {
     margin-bottom: 40px;
   }
-   */
+  
