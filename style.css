@@ -47,6 +47,10 @@ img {
     box-shadow: 2px 2px 5px var(--primary);
 }
 
+.img_venue {
+  max-width: 90%;
+  width: 720px;
+}
 p {
     font-size: 18px;
     color: #666;
