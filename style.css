@@ -17,7 +17,7 @@
   
 
 body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-color: #f8f8f8;
     margin: 0;
     padding: 0;
@@ -64,9 +64,20 @@ main {
     /* opacity: .9; */
 }
 
-.img_venue {
+.section_heading {
+  color: var(--secondary);
+  font-size: 2em;
+}
+
+.img_venue, .img_rsvp {
   max-width: 90%;
-  width: 720px;
+    border: var(--primary) 2px solid;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px var(--primary);
+}
+
+.img_rsvp {
+  width: 380px;
 }
 
 header p {
@@ -109,7 +120,7 @@ footer {
   animation-delay: 0.5s;
 }
 section {
-    padding: 40px;
+    padding: 20px;
     text-align: center;
     margin-bottom: 50px;
     opacity: 1;
