@@ -127,7 +127,7 @@ footer {
 
 /* ... your previous CSS styles ... */
 
-.main_photo {
+.main_photo, .date-venue, .rsvp, .gift-guide, .dress-code {
   transition: opacity 1s ease-in-out, transform 1s ease-in-out;
   animation: slideIn 1.5s forwards;
   animation-delay: 0.5s;
