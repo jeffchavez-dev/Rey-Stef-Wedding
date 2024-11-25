@@ -84,12 +84,17 @@ header p {
   color: var(--font);
 }
 p {
-    font-size: 18px;
-    color: #666;
-    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: var(--primary);
+    margin: 10px;
+    
 }
 
-.button {
+a {
+  color: var(--primary);
+}
+
+button {
     background-color: #f0c27b; /* Soft orange */
     color: #fff;
     padding: 15px 30px;
@@ -98,8 +103,15 @@ p {
     font-weight: bold;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-.button:hover {
+button > a {
+    color: #fff;
+    font-size: 2.5em;
+    padding: 15px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+button:hover {
     background-color: #e6b85a;
 }
 
