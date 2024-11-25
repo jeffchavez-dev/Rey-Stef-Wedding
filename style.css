@@ -128,7 +128,9 @@ button {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 5px var(--secondary);
+    border: 2px solid var(--secondary);
+    opacity: .8;
 }
 
 button > a {
@@ -141,6 +143,12 @@ button > a {
 }
 button:hover {
     background-color: #e6b85a;
+    opacity: 1;
+    
+}
+
+button > a:hover {
+  color: var(--secondary)
 }
 
 footer {
@@ -253,4 +261,9 @@ section:nth-child(2) {
   .reveal.active{
     transform: translateY(0);
     opacity: 1;
+  }
+
+
+  footer p {
+    color: var(--secondary)
   }
