@@ -5,7 +5,9 @@
 }
 
 :root {
-    --primary: #e6b85a
+    --primary: #e6b85a;
+    --secondary: #62b3ffa5;
+    --font: #fff;
 }
 .parisienne-regular {
     font-family: "Parisienne", cursive;
@@ -23,19 +25,20 @@ body {
 
 header {
     background-color: none;
-    padding: 1cqi;
+    padding: 10px;
     text-align: center;
-    border-bottom: 2px solid var(--primary);
+    /* border-bottom: 2px solid var(--primary); */
 }
 
 h1 {
     font-size: 36px;
-    color: #333;
+    color: var(--font);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
 }
 
+
 main {
-    padding: 40px;
+    padding: 10px;
     text-align: center;
     z-index: 1;
 }
@@ -52,17 +55,22 @@ main {
   opacity: .8;
 }
 .main_photo {
+    height: 70vh;
     max-width: 90%;
     width: 380px;
     border: var(--primary) 2px solid;
     border-radius: 10px;
     box-shadow: 2px 2px 5px var(--primary);
-    opacity: .95;
+    /* opacity: .9; */
 }
 
 .img_venue {
   max-width: 90%;
   width: 720px;
+}
+
+header p {
+  color: var(--font);
 }
 p {
     font-size: 18px;
@@ -95,13 +103,18 @@ footer {
 
 /* ... your previous CSS styles ... */
 
+.main_photo {
+  transition: opacity 1s ease-in-out, transform 1s ease-in-out;
+  animation: slideIn 1.5s forwards;
+  animation-delay: 0.5s;
+}
 section {
     padding: 40px;
     text-align: center;
     margin-bottom: 50px;
     opacity: 1;
     /* transform: translateY(20px); */
-    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: opacity 1s ease-in-out, transform 1s ease-in-out;
 }
 
 section:nth-child(1) {

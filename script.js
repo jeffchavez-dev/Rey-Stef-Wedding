@@ -22,4 +22,4 @@ const intervalId = setInterval(() => {
 }, 1000);
 
 
-ScrollReveal().reveal('.wedding-info, .date-venue, .rsvp, .gift-guide, .dress-code', { distance: '20px', origin: 'bottom', duration: 500 });
+ScrollReveal().reveal('.main_photo, .wedding-info, .date-venue, .rsvp, .gift-guide, .dress-code', { distance: '20px', origin: 'bottom', duration: 500 });
