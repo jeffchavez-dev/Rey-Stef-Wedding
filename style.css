@@ -63,7 +63,6 @@ main {
     box-shadow: 2px 2px 5px var(--primary);
     /* opacity: .9; */
     margin-bottom: 1.5em;
-
 }
 
 @media screen and (max-width: 480px) {
