@@ -62,7 +62,8 @@ main {
     border-radius: 10px;
     box-shadow: 2px 2px 5px var(--primary);
     /* opacity: .9; */
-    margin: 10px ;
+    margin-bottom: 1.5em;
+
 }
 
 .section_heading {
