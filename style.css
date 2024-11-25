@@ -80,6 +80,17 @@ main {
 .img_rsvp {
   width: 380px;
 }
+.img_gallery {
+  margin: 1em;
+  display: flex ;
+  gap: 1em;
+  flex-wrap: wrap;
+  max-width: 90%;
+  justify-content: center;
+}
+.img_gallery >img {
+  width: 30%;
+}
 
 header p {
   color: var(--font);
