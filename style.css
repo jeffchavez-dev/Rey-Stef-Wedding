@@ -225,6 +225,7 @@ section:nth-child(2) {
   .colors {
     display: flex;
     justify-content: center;
+    gap: 5px;
     margin: auto;
   }
   .color {
@@ -233,7 +234,13 @@ section:nth-child(2) {
     border-radius: 100px;
   }
   .color_one {
-    background-color: #002366;
+    background-color: #0f3b8d;
+  }
+  .color_two {
+    background-color: #0243ba;
+  }
+  .color_three {
+    background-color: #296be6;
   }
   .reveal{
     position: relative;
