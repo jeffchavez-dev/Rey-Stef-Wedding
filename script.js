@@ -1,6 +1,6 @@
 const countdownElement = document.getElementById('countdown');
 
-const countdownDate = new Date('December 5, 2024 16:00:00').getTime();
+const countdownDate = new Date('December 5, 2024 11:00:00').getTime();
 
 const intervalId = setInterval(() => {
   const now = new Date().getTime();
